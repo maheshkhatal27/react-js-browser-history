@@ -1,0 +1,90 @@
+.history-list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.time-logo-url-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  color: #64748b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-right: 45px;
+}
+.logo-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 12px;
+}
+.logo-title {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-right: 12px;
+}
+.domain-url {
+  color: #64748b;
+  font-size: 16px;
+}
+.logo-domain-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.small-device {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.delete-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  .time-logo-url-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-domain-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .time {
+    color: #64748b;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-left: 0px;
+  }
+  .logo-img {
+    height: 22px;
+    width: 22px;
+    margin-right: 0px;
+  }
+  .logo-title {
+    color: #475569;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .domain-url {
+    color: #64748b;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
